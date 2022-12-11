@@ -1,0 +1,190 @@
+body{
+    background: linear-gradient(900deg, #0074f8, #011779);
+    margin: 0 auto;
+    width: 940px;
+}
+
+.btnMenu{
+    display: none;
+}
+
+#menu{
+    display: flex;
+    background-color: #013a7c;
+    color: #96d5ff;
+    padding: 10px 0 10px 100px;
+    position: fixed;
+    width: 940px;
+}
+
+.menu-item{
+    padding: 10px;
+}
+
+.menu-item:hover{
+    background: linear-gradient(45deg, #0c1e31, #002a77)  ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00a2ff80;  
+}
+
+.menu-item-action{
+    font-size: 1.5em;
+    font-family:   'Mulish' , 'Raleway', 'Unbounded';
+    font-weight: bold;
+}
+
+.inicio{
+    padding-top: 100px;
+    background-color: #013a7c;
+    display: flex;
+}
+.dados-pessoais{
+    width: 50%;
+    padding: 50px 5%;
+}
+.dados-pessoais h1{
+    font-size: 2em;
+    color: #96d5ff;
+    font-family:   'Mulish' , 'Raleway', 'Unbounded';
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.dados-pessoais p{
+    font-size: 1.4em;
+    color: #96d5ff;
+    font-family:   'Mulish' , 'Raleway', 'Unbounded';
+    padding-bottom: 15px;
+}
+
+.dados-pessoais img{
+    width: 20px;
+}
+
+.imagem-perfil{
+    width: 50%;
+    padding: 10px;
+}
+
+.imagem-perfil img{
+    border-radius: 200px;
+    width: 80%;
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.5);
+    border: 8px solid #0e2a4b;
+}
+
+.redes-sociais{
+    background-color: #013a7c;
+    text-align: center;
+}
+.redes-sociais img{
+    width: 50px;
+    margin: 0 15px;
+    padding: 20px 0;
+}
+
+.barra-desing1{
+    height: 5px;
+    width: 100%;
+    background:linear-gradient(10deg,#0074f8, #0c1e31 );
+}
+
+.barra-desing2{
+    height: 5px;
+    width: 100%;
+    background:linear-gradient(10deg, #0c1e31,#0074f8 );
+}
+
+#sobre-mim, #educacao, #experiencias, #habilidades, #interesses{
+    background-color: #e3f4ff;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Mulish';
+    padding: 10px 0;
+}
+
+.sobre-mim{
+    display: flex;
+}
+
+.sobre-mim img{
+    width: 50%;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0e2a4b50;
+}
+
+.sobre-mim p{
+    margin: 3%;
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Raleway';
+}
+
+.educacao{
+    display: flex;
+    margin-left: 65px;
+}
+
+.educacao p{
+    text-align: center;
+    background-color: #013a7c;
+    color: #96d5ff;
+    font-family: 'Raleway';
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0074f890;
+}
+
+#interesses{
+    padding-left: 60px;
+}
+
+.icones-interesses{
+    width: 60px;
+    margin: 0 30px;
+}
+
+.display-informacoes-interesses {
+    
+    display: none;
+}
+
+#caixa-texto-interesses{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+}
+
+.margem-caixas{
+    text-align: center;
+    background-color: #013a7c;
+    color: #96d5ff;
+    font-family: 'Raleway';
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0074f890;
+}
+
+#rodape{
+    padding: 30px 0;
+    background-color: #013a7c;
+    text-align: center;
+    color: #96d5ff;
+    font-family: 'Mulish';
+}
+
+#rodape a{
+    font-weight: bold;
+    color: #49cff8;
+}
+
+#rodape img{
+    width: 35px;
+}

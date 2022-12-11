@@ -1,0 +1,96 @@
+@media screen and (max-width: 480px){
+    body{
+        background: linear-gradient(0, #013a7c,#013a7c);
+        margin: 0;
+        width: 100%;
+    }
+
+    .btnMenu{
+        display: block;
+    }
+
+    #menu{
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .inicio{
+        padding-top: 5px;
+        background-color: #013a7c;
+        display: block;
+        text-align: center;
+    }
+
+    .dados-pessoais{
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+    .dados-pessoais h1{
+        font-size: 1.5em;
+    }
+    
+    .dados-pessoais p{
+        font-size: 1.1em;
+    }
+    
+    .dados-pessoais img{
+        width: 20px;
+    }
+    
+    .imagem-perfil{
+        width:  100%;
+    }
+
+    
+    .titulo{
+        text-align: center;
+        font-size: 1.6em;
+        font-family: 'Mulish';
+    }
+
+    .sobre-mim{
+        display: block;
+    }
+
+    .sobre-mim img{
+        width: 100%;
+        margin: 0;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #0e2a4b50;
+        opacity: 15%;
+    }
+    
+    .sobre-mim p{
+        width: 98%;
+        margin: 0;
+        font-size: 1.15em;
+        text-align: justify;
+        margin-top: -220px;
+        position: absolute;
+    }
+
+    .educacao{
+        display: block;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .educacao p{
+        width: 95%;
+        margin: 0 0 10px 10px
+    }
+
+    #interesses{
+        padding-left: 1%;
+    }
+
+    #caixa-texto-interesses{
+        margin-left: 0;
+    }
+    
+    .margem-caixas{
+        width: 98%;
+    }
+}
